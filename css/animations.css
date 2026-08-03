@@ -40,7 +40,7 @@
     60%  { transform: scale(1.6)  translateY(-40px) rotateX(0deg); opacity: 1; }
     100% { transform: scale(2.4)  translateY(-80px) rotateX(0deg); opacity: 0; }
 }
-.envelope.is-zooming { animation: cardCameraZoom 60s cubic-bezier(.6,.05,.3,1) forwards; }
+.envelope.is-zooming { animation: cardCameraZoom 60s cubic-bezier(.15,.12,.8,5) forwards; }
 
 /* ---------- Golden particles float ---------- */
 @keyframes goldFloat {
