@@ -768,7 +768,7 @@ h1, h2, h3, h4 { font-family: var(--f-serif); font-weight: 500; letter-spacing: 
 .hero__names {
     font-family: var(--f-script);
     font-size: clamp(3.2rem, 9vw, 7.5rem);
-    line-height: 1;
+    line-height: 1.2;
     background: var(--gold-gradient);
     -webkit-background-clip: text;
     background-clip: text;
