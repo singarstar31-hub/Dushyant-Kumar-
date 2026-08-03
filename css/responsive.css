@@ -78,7 +78,7 @@
         transform: rotateX(4deg);
     }
     .wax-seal { width: 76px; height: 76px; }
-    .wax-seal__initials { font-size: 1.5rem; }
+    .wax-seal__initials { font-size: 1rem; }
     .envelope-hint { margin-top: 40px; font-size: .85rem; letter-spacing: 2px; }
 
     .hero__eyebrow { letter-spacing: 5px; font-size: .8rem; }
