@@ -31,7 +31,7 @@
     0%,100% { transform: rotateX(8deg) translateY(0); }
     50%     { transform: rotateX(8deg) translateY(-10px); }
 }
-.envelope { animation: envelopeFloat 5s ease-in-out infinite; }
+.envelope { animation: envelopeFloat 30s ease-in-out infinite; }
 .envelope.is-open { animation: none; }
 
 /* ---------- Camera zoom into card (post-open) ---------- */
