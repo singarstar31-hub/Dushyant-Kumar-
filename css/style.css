@@ -696,7 +696,7 @@ h1, h2, h3, h4 { font-family: var(--f-serif); font-weight: 500; letter-spacing: 
     padding: 0 32px;
     display: grid; place-items: center;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 .hero__bg {
     position: absolute; inset: 0;
