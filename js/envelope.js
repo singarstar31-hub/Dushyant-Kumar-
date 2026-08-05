@@ -37,9 +37,21 @@
         }
 
         // 2. Crack seal
-        seal.classList.add('is-breaking');
-        try { if (sealSnd) { sealSnd.currentTime = 0; sealSnd.volume = 0.6; sealSnd.play().catch(()=>{}); } } catch (e) {}
+seal.classList.add('is-breaking');
 
+// Background music start
+const bgMusic = document.getElementById('bgMusic');
+if (bgMusic) {
+    bgMusic.play().catch(() => {});
+}
+
+try {
+    if (sealSnd) {
+        sealSnd.currentTime = 0;
+        sealSnd.volume = 0.6;
+        sealSnd.play().catch(() => {});
+    }
+} catch (e) {}
         // 3. After a brief crack pause, break seal and open flap
         setTimeout(() => {
             seal.classList.add('is-broken');
