@@ -456,7 +456,7 @@ h1, h2, h3, h4 { font-family: var(--f-serif); font-weight: 500; letter-spacing: 
     font-family: var(--f-script);
     font-size: clamp(2rem, 6vw, 3rem);
     line-height: 1;
-    margin: 6px 0 10px;
+    margin: 8px 0 12px;
     background: linear-gradient(180deg, #b8873a, #6d4a12);
     -webkit-background-clip: text;
     background-clip: text;
