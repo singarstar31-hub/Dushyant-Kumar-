@@ -454,7 +454,7 @@ h1, h2, h3, h4 { font-family: var(--f-serif); font-weight: 500; letter-spacing: 
 }
 .letter-names {
     font-family: var(--f-script);
-    font-size: clamp(2.2rem, 6.5vw, 4rem);
+    font-size: clamp(2rem, 6vw, 3rem);
     line-height: 1;
     margin: 6px 0 10px;
     background: linear-gradient(180deg, #b8873a, #6d4a12);
